@@ -1,0 +1,75 @@
+IntelEM64VisualFCompiler instance properties:
+  archiver        = ['C:\\Program Files
+                    (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\bin\\inte
+                    l64\\ifort.exe', '/verbose', '/OUT:']
+  compile_switch  = '/c '
+  compiler_f77    = ['C:\\Program Files
+                    (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\bin\\inte
+                    l64\\ifort.exe', 'Files',
+                    '(x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\bin\\int
+                    el64\\ifort.exe', '/nologo', '/MD', '/nbs',
+                    '/names:lowercase', '/assume:underscore', '/fpp', '/O1',
+                    '/assume:minus0']
+  compiler_f90    = ['C:\\Program Files
+                    (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\bin\\inte
+                    l64\\ifort.exe', 'Files',
+                    '(x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\bin\\int
+                    el64\\ifort.exe', '/nologo', '/MD', '/nbs',
+                    '/names:lowercase', '/assume:underscore', '/fpp', '/O1',
+                    '/assume:minus0']
+  compiler_fix    = ['C:\\Program Files
+                    (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\bin\\inte
+                    l64\\ifort.exe', 'Files',
+                    '(x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\bin\\int
+                    el64\\ifort.exe', '/nologo', '/MD', '/nbs',
+                    '/names:lowercase', '/assume:underscore', '/fpp', '/O1',
+                    '/assume:minus0']
+  libraries       = []
+  library_dirs    = []
+  linker_exe      = None
+  linker_so       = ['C:\\Program Files
+                    (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\bin\\inte
+                    l64\\ifort.exe']
+  object_switch   = '/Fo'
+  ranlib          = None
+  version         = LooseVersion ('2021.5.0')
+  version_cmd     = ['C:\\Program Files
+                    (x86)\\Intel\\oneAPI\\compiler\\latest\\windows\\bin\\inte
+                    l64\\ifort.exe', '/FI', '/c',
+                    'C:\\Users\\tmp8\\AppData\\Local\\Temp\\tmpqld3rzrz\\c968o
+                    uue.f', '/o',
+                    'C:\\Users\\tmp8\\AppData\\Local\\Temp\\tmpqld3rzrz\\c968o
+                    uue.o']
+Fortran compilers found:
+  --fcompiler=intelvem  Intel Visual Fortran Compiler for 64-bit apps
+                        (2021.5.0)
+Compilers available for this platform, but not found:
+  --fcompiler=absoft   Absoft Corp Fortran Compiler
+  --fcompiler=compaqv  DIGITAL or Compaq Visual Fortran Compiler
+  --fcompiler=flang    Portland Group Fortran LLVM Compiler
+  --fcompiler=g95      G95 Fortran Compiler
+  --fcompiler=gnu      GNU Fortran 77 compiler
+  --fcompiler=gnu95    GNU Fortran 95 compiler
+  --fcompiler=intelem  Intel Fortran Compiler for 64-bit apps
+  --fcompiler=intelev  Intel Visual Fortran Compiler for Itanium apps
+  --fcompiler=intelv   Intel Visual Fortran Compiler for 32-bit apps
+Compilers not available on this platform:
+  --fcompiler=arm      Arm Compiler
+  --fcompiler=compaq   Compaq Fortran Compiler
+  --fcompiler=fujitsu  Fujitsu Fortran Compiler
+  --fcompiler=hpux     HP Fortran 90 Compiler
+  --fcompiler=ibm      IBM XL Fortran Compiler
+  --fcompiler=intel    Intel Fortran Compiler for 32-bit apps
+  --fcompiler=intele   Intel Fortran Compiler for Itanium apps
+  --fcompiler=lahey    Lahey/Fujitsu Fortran 95 Compiler
+  --fcompiler=mips     MIPSpro Fortran Compiler
+  --fcompiler=nag      NAGWare Fortran 95 Compiler
+  --fcompiler=nagfor   NAG Fortran Compiler
+  --fcompiler=none     Fake Fortran compiler
+  --fcompiler=nv       NVIDIA HPC SDK
+  --fcompiler=pathf95  PathScale Fortran Compiler
+  --fcompiler=pg       Portland Group Fortran Compiler
+  --fcompiler=sun      Sun or Forte Fortran 95 Compiler
+  --fcompiler=vast     Pacific-Sierra Research Fortran 90 Compiler
+For compiler details, run 'config_fc --verbose' setup command.
+Removing build directory C:\Users\tmp8\AppData\Local\Temp\tmpfv2shhyp

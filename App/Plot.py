@@ -37,7 +37,7 @@ class MaxwellPlot(ttk.Frame):
         # профили токов
         self.f_classic,    = self.ax.plot(distrib['v'], distrib['f_classic'])
         self.f_ext, = self.ax.plot(distrib['v'], distrib['f_ext'])
-        self.ax.set_title("Plh, Poh")
+        self.ax.set_title("classic, ext")
     
 
         self.canvas = FigureCanvasTkAgg(self.fig, self)
